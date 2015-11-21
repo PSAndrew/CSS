@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Polo's BBC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				color: white;
+				font-family: Arial, sans-serif;
+				text-align: center;
+			}
+			main{
+				width: 100%; 
+			}
+
+			.break{
+				clear: both;
+			}
+
+			#toolbar{
+				background-color: #7A0000;
+				height: 50px;
+				width: 100%;
+				font-weight: bold;
+				font-size: 1.25em;
+				text-decoration: none;
+				line-height: 2em;
+			}
+
+			.fixedwidth{
+				width: 1050px;
+				margin: 0 auto;
+			}
+
+			#logodiv{
+				padding: 7.5px;
+				float: left;
+				border-right: 1px solid #990000;
+				padding-right: 10px;
+				line-height: 1em;
+			}
+
+
+			#signindiv{
+				float: left;
+				border-right: 1px solid #990000;
+			}
+
+			#signindiv a{
+				padding: 20px 30px 9px 20px;
+				line-height: 2.525em;
+				text-decoration: none;
+			}
+
+			#signindiv a:hover{
+				border-bottom: 4px solid white;
+			}
+
+			#topmenudiv{
+				float: left;
+				padding: 0;
+			}
+			#topmenudiv li{
+				border-right: 1px solid #990000;
+				list-style: none;
+				line-height: 2.525em;
+				font-size: .9em;
+				padding: 5px 25px 0 25px;
+				float: left;
+				height: 100%;
+			}
+
+			#searchdiv{
+				padding: 5px;
+			}
+
+			#searchdiv input{
+				height: 25px;
+				border: none;
+				font-size: .9em;
+				padding: 4px;
+				color: #D3D3D3;
+			}
+
+			#newsbar{
+				background-color: #990000;
+				height: 100px;
+				width: 100%;
+				color: white;
+			}
+
+			#newsbar p{
+				margin: 0;
+				padding: 15px 0 0 10px;
+				padding-top: 15px;
+			}
+
+			#newsheader{
+				text-align: left;
+				font-size: 3em;
+			}
+
+			#uk{
+				font-size: .7em;
+			}
+
+
+		</style>
+
+	</head>
+
+	<body>
+		<main>
+
+			<div id="toolbar">
+				
+				<div class="fixedwidth">
+					<div id="logodiv">
+						<img src="images/logo.png">
+					</div>
+
+					<div id="signindiv">
+						<p><a href="#">&#9786; Sign In</a></p>
+					</div>
+				</div>
+
+				<div id="topmenudiv">
+					<ul>
+						<li>News</li>
+						<li>Sport</li>
+						<li>Weather</li>
+						<li>IPlayer</li>
+						<li>TV</li>
+						<li>Radio</li>
+						<li>More...</li>
+					</ul>
+				</div>
+
+				<div id="searchdiv">
+					<input type="text" placeholder="Search" />
+				</div>
+
+			</div>
+
+			<div class="break"></div>
+
+			<div id="newsbar">
+				<div class="fixedwidth">
+					<p id="newsheader">News<span id="uk">UK</span></p>
+				</div>
+			</div>
+
+
+			
+
+		</main>
+	</body>
+
+</html>
